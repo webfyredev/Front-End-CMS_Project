@@ -1,0 +1,66 @@
+const slides = document.querySelectorAll('.slides');
+const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('next');
+const dots = document.querySelectorAll('.dots');
+let index = 0;
+function showSlides(n){
+    slides.forEach(slide => slide.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+
+    slides[n].classList.add('active');
+    dots[n].classList.add('active');
+};
+
+prevButton.addEventListener('click', ()=>{
+    index = (index - 1 + slides.length) % slides.length;
+    showSlides(index);
+});
+nextButton.addEventListener('click', ()=>{
+    index = (index + 1) % slides.length;
+    showSlides(index);
+});
+
+setInterval(() =>{
+    index = ( index + 1) % slides.length;
+    showSlides(index);
+}, 7000);
+
+dots.forEach((dot, i) =>{
+    dot.addEventListener('click', ()=>{
+        index = i;
+        showSlides(index);
+    })
+});
+
+const moveUp = document.querySelectorAll('.move-up');
+function showUpdata(){
+    const targetbtn = window.innerHeight * 0.90;
+    moveUp.forEach(e =>{
+        const boxTop = e.getBoundingClientRect().top;
+        if(boxTop < targetbtn){
+            e.classList.add('active');
+        }else{
+            e.classList.remove('active');
+        };
+    });
+};
+window.addEventListener('scroll', showUpdata);
+window.addEventListener('load', showUpdata);
+
+
+const videoData = document.querySelectorAll('.aside-vids');
+
+function videoZooming(){
+    const targetButs = window.innerHeight * 0.75;
+    videoData.forEach(btn =>{
+        const boxTop = btn.getBoundingClientRect().top;
+        if(boxTop < targetButs){
+            btn.classList.add('active');
+        }else{
+            btn.classList.remove('active');
+        }
+    });
+};
+
+window.addEventListener('scroll', videoZooming);
+window.addEventListener('load', videoZooming);
