@@ -3,13 +3,26 @@ const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
 const dots = document.querySelectorAll('.dots');
 let index = 0;
-function showSlides(n){
-    slides.forEach(slide => slide.classList.remove('active'));
-    dots.forEach(dot => dot.classList.remove('active'));
 
-    slides[n].classList.add('active');
-    dots[n].classList.add('active');
+
+showSlides(index);
+function showSlides(n){
+    slides.forEach((slide, i) =>{
+        if( i === n){
+            slide.classList.add('active');
+        }else{
+            slide.classList.remove('active');
+        };
+    });
+    dots.forEach((dot, i) =>{
+        if(i === n){
+            dot.classList.add('active');
+        }else{
+            dot.classList.remove('active');
+        }
+    })
 };
+
 
 prevButton.addEventListener('click', ()=>{
     index = (index - 1 + slides.length) % slides.length;
@@ -21,7 +34,7 @@ nextButton.addEventListener('click', ()=>{
 });
 
 setInterval(() =>{
-    index = ( index + 1) % slides.length;
+    index = (index + 1) % slides.length;
     showSlides(index);
 }, 7000);
 
@@ -30,7 +43,9 @@ dots.forEach((dot, i) =>{
         index = i;
         showSlides(index);
     })
-});
+})
+
+
 
 const moveUp = document.querySelectorAll('.move-up');
 function showUpdata(){
