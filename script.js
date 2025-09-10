@@ -79,3 +79,12 @@ function videoZooming(){
 
 window.addEventListener('scroll', videoZooming);
 window.addEventListener('load', videoZooming);
+
+// const links = document.querySelectorAll('nav .nav-links ul li a');
+// links.forEach(link =>{
+//     link.addEventListener('click', function(e){
+//         e.preventDefault();
+//         const targets = document.querySelector(this.getAttribute('href'));
+//         targets.scrollIntoView({behavior : 'smooth'});
+//     });
+// });
