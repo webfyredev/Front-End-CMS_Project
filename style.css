@@ -38,7 +38,7 @@ nav .logo{
 }
 nav .logo a{
     /* font-size: 30px; */
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: bolder;
     color: #85BDBF;
@@ -59,7 +59,7 @@ nav .nav-links{
 nav .nav-links .search{
     width: 40%;
     height: 100%;
-    /* border: 2px solid black;  */
+    /* border: 2px solid black; / */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,10 +74,7 @@ nav .nav-links .search input{
 }
 nav .nav-links .search input::placeholder{
     color: #85BDBF;
-}
-nav .nav-links a{
-    text-decoration: none;
-
+    font-size: 10px;
 }
 nav .nav-links ul{
     display: flex;
@@ -93,8 +90,11 @@ nav .nav-links li a{
     padding: 20px;
     display: flex;
     /* color: #E16F7C; */
+    font-size: 12px;
     color: #85BDBF;
     transition: color 1s ease;
+    text-decoration: none;
+    /* border: 2px solid red; */
 }
 nav .nav-links li a:hover{
     color: #C9FBFF;
@@ -104,11 +104,12 @@ nav .nav-links li a:hover{
 nav .nav-links button{
     width: 15%;
     height: 65%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 5px;
     background: #85BDBF;
     margin-top: 1%;
-    /* border: none; */
+    font-size: 12px;
+    border: none;
     outline: none;
     color: #030027;
     cursor: pointer;
@@ -124,7 +125,7 @@ nav .nav-links button:hover a{
 nav .nav-links button a{
     text-decoration: none;
     color: #030027;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: bolder;
     transition: color 0.4s ease;
 }
@@ -160,7 +161,7 @@ nav .nav-links button a{
 .cam-slider .slider{
     width: 100%;
     height: 55%;
-    /* border: 2px solid red; */
+    /* border: 2px solid red;/ */
     position: relative;
     overflow: hidden;
 }
@@ -201,21 +202,21 @@ nav .nav-links button a{
 .cam-slider .slider .slides .slides-blured .overlay p{
     color: #fff;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 12px;
 }
 .cam-slider .slider .slides .slides-blured .overlay h2{
-    font-size: 50px;
+    font-size: 35px;
     margin-bottom: 30px;
     color: #C9FBFF;
 }
 .cam-slider .slider .slides .slides-blured .overlay button{
-    padding: 20px 60px;
+    padding: 15px 40px;
     border: none;
     outline: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 16px;
-    color: #85BDBF;
+    font-size: 12px;
+    color: #C9FBFF;
     background: #040F0F;
     transition: background 0.5s ease, color 0.5s ease, transform 1s ease;
 }
@@ -227,9 +228,9 @@ nav .nav-links button a{
 .cam-slider .slider .arrow-buts{
     position: absolute;
     top: 40%;
-    width: 45px;
-    height: 60px;
-    /* background: #040f0ffa; */
+    width: 40px;
+    height: 55px;
+    background: #040f0ffa;
     background: none;
     color: #C9FBFF;
     border: none;
@@ -262,7 +263,7 @@ nav .nav-links button a{
     align-items: center;
 }
 .cam-slider .slider .dots-container .dots{
-    padding: 8px 8px;
+    padding: 6px 6px;
     /* border: 2px solid red; */
     background: #fff;
     border-radius: 50%;
@@ -304,10 +305,10 @@ nav .nav-links button a{
 }
 .cam-slider .under-slider .under-slider1 .slides-blured .contents{
     width: 70%;
-    height: 50%;
+    height: 60%;
     /* border: 2px solid red; */
     position: absolute;
-    top: 35%;
+    top: 33%;
     left: 5%;
     padding: 25px;
 }
@@ -325,39 +326,45 @@ nav .nav-links button a{
     padding: 30px;
 }
 .cam-slider .under-slider .under-slider2 .slides-blured .contents p{
-    color: #fff;
-    font-weight: bolder;
+    font-size: 15px;
+    color: #C9FBFF;
+    margin-bottom: 15px;
 }
 .cam-slider .under-slider .under-slider2 .slides-blured .contents h2{
     text-align: center;
     color: #C9FBFF;
-    font-size: 20px;
-   
+    font-size: 15px;
+   /* border: 2px solid red; */
 }
 .cam-slider .under-slider .under-slider2 .slides-blured .contents button{
-    padding: 15px 55px;
+    padding: 12px 50px;
     border: none;
     outline: none;
     background: #040F0F;
-    color: #85BDBF;
+    /* border: 2px solid red; */
+    color: #C9FBFF;
+    cursor: pointer;
     font-weight: bolder;
 }
 .cam-slider .under-slider .under-slider1 .slides-blured .contents p{
-    font-size: 20px;
-    color: #fff;
+    font-size: 15px;
+    color: #C9FBFF;
     margin-bottom: 15px;
+
+    /* border: 2px solid red; */
 }
 .cam-slider .under-slider .under-slider1 .slides-blured .contents h2{
     color: #C9FBFF;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 .cam-slider .under-slider .under-slider1 .slides-blured .contents button{
-    padding: 15px 55px;
+    padding: 12px 45px;
     border: none;
     outline: none;
     background: #040F0F;
-    color: #85BDBF;
+    color: #C9FBFF;
+    cursor: pointer;
     font-weight: bolder;
 }
 .cam-slider .under-slider .under-slider1 .slides-blured:hover, .cam-slider .under-slider .under-slider2 .slides-blured:hover{
@@ -399,12 +406,13 @@ nav .nav-links button a{
     align-items: center;
 }
 .under-content .under-content-box i{
-    font-size: 35px;
+    font-size: 20px;
     color: #85BDBF;
     cursor: pointer;
 }
 .under-content .under-content-box p{
     color: #85BDBF;
+    font-size: 12px;
 }
 .news{
     width: 100%;
@@ -431,7 +439,7 @@ nav .nav-links button a{
     padding: 10px;
 }
 .news .news-main .heads h3{
-    font-size: 30px;
+    font-size: 20px;
     color: #040F0F;
 }
 .news .news-main .heads a{
@@ -439,7 +447,7 @@ nav .nav-links button a{
     color: #040F0F;
     font-weight: bolder;
     margin-right: 20px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .news .news-main .box-contents{
     width: 100%;
@@ -460,7 +468,7 @@ nav .nav-links button a{
 .news .news-main .box-contents .contents-1 .box-1, .news .news-main .box-contents .contents-1 .box-2{
     width: 49%;
     height: 100%;
-    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     /* padding: 15px; */
     display: flex;
     flex-direction: column;
@@ -524,15 +532,16 @@ nav .nav-links button a{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 .news .news-main .box-contents .contents-2 .main-contents-2 main h3{
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
 }
 .news .news-main .box-contents .contents-2 .main-contents-2 main p{
     color: grey;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .news .news-main .box-contents .contents-2 .main-contents-2 main h4{
-    font-size: 12px;
+    font-size: 10px;
 }
 .news .news-main .box-contents .contents-1 .box-1 .main-contents img{
     width: 100%;
@@ -555,26 +564,30 @@ nav .nav-links button a{
 
 }
 .news .news-main .box-contents .contents-1 .box-1 .main-contents .text-content p{
-    font-size: 18px;
-
+    font-size: 14px;
+    /* border: 2px solid red; */
+    margin-bottom: 5px;
 }
 .news .news-main .box-contents .contents-1 .box-1 .main-contents .text-content .small-p{
     color: grey;
-    font-size: 12px;
+    font-size: 11px;
 }
 .news .news-main .box-contents .contents-1 .box-1 .main-contents .text-content button{
-    width: 47%;
-    height: 30%;
+    width: 55%;
+    height: 35%;
     border-radius: 0% 10px;
     border: none;
     outline: none;
     background: #040F0F;
-    color: #85BDBF;
+    color: #C9FBFF;
     font-weight: bolder;
     cursor: pointer;
     opacity: 0;
     transform: translateX(30px);
     transition: opacity 1s ease, transform 1s ease;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    font-size: 12px;
 }
 .news .news-main .box-contents .contents-1 .box-1 .main-contents .text-content button.active{
     opacity: 1;
@@ -602,7 +615,7 @@ nav .nav-links button a{
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 25px;
+    font-size: 15px;
     padding: 10px;
 }
 .news .news-aside .aside-vids{
@@ -637,7 +650,7 @@ nav .nav-links button a{
     width: 100%;
     height: 25%;
     /* border: 2px solid red; */
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -679,6 +692,7 @@ nav .nav-links button a{
     width: 100%;
     height: 100%;
     /* border: 2px solid red; */
+    background: #fff;
 }
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-heading{
     width: 100%;
@@ -699,7 +713,8 @@ nav .nav-links button a{
     transform: translateX(0);
 }
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-heading h2{
-    color: #85BDBF;
+    color: #C9FBFF;
+    /* border: 2px solid red; */
 }
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-buts{
     width: 100%;
@@ -728,8 +743,8 @@ nav .nav-links button a{
 }
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-buts .cat-buts .but-div{
     width: 90%;
-    height: 35%;
-    /* border: 2px solid red; */
+    height: 30%;
+    /* border: 2px solid blue;   */
     cursor: pointer;
     background: #030027;
     border-radius: 5px;
@@ -744,7 +759,7 @@ nav .nav-links button a{
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-buts .cat-buts .but-div i{
     padding-right: 20px;
     color: #c9fbff3c;
-    font-size: 40px;
+    font-size: 20px;
     transition: color 0.5s ease-in-out;
 
 }
@@ -752,14 +767,15 @@ nav .nav-links button a{
     width: 100%;
     height: 100%;
     text-decoration: none;
-    color: #C9FBFF;
+    color: #85BDBF;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
     transition: color 1s ease;
 }
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-buts .cat-buts .but-div a:hover{
-    color: #85BDBF;
+    color: #C9FBFF;
 }
 .fourth-1 .fourth-1-aside .aside-divs .aside-divs-buts .cat-buts .but-div i a:hover{
     color: #85BDBF;
@@ -793,13 +809,13 @@ nav .nav-links button a{
     transform: translateY(0);
 }
 .fourth-1 .fourth-1-main .main1 .overlay h3{
-    font-size: 45px;
+    font-size: 35px;
     color: #fff;
     z-index: 1000;
     opacity: 100%;
 }
 .fourth-1 .fourth-1-main .main1 .overlay .overlay-btn{
-    width: 45%;
+    width: 55%;
     height: 45%;
     /* border: 2px solid red; */
     margin-top: 10px;
@@ -810,7 +826,7 @@ nav .nav-links button a{
 }
 .fourth-1 .fourth-1-main .main1 .overlay .overlay-btn button{
     width: 48%;
-    height: 60%;
+    height: 85%;
     /* border: 2px solid red; */
     border: none;
     outline: none;
@@ -831,21 +847,24 @@ nav .nav-links button a{
     padding: 30px;
 }
 .fourth-1 .fourth-1-main .main2 h2{
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 1s ease, transform 1s ease;
+    /* border: 2px solid red; */
 }
 .fourth-1 .fourth-1-main .main2 h2.active{
     opacity: 1;
     transform: translateY(0);
 }
 .fourth-1 .fourth-1-main .main2 p{
-    margin-bottom: 30px;
-     opacity: 0;
+    margin-bottom: 15px;
+    opacity: 0;
     transform: translateY(30px);
+    /* border: 2px solid red; */
+    font-size: 12px;
     transition: opacity 1s ease, transform 1s ease;
 }
 .fourth-1 .fourth-1-main .main2 p.active{
@@ -853,12 +872,12 @@ nav .nav-links button a{
     transform: translateY(0);
 }
 .fourth-1 .fourth-1-main .main2 button{
-    padding: 18px 55px;
+    padding: 15px 50px;
     border: none;
     outline: none;
     cursor: pointer;
     background: #040F0F;
-    color: #85BDBF;
+    color: #C9FBFF;
     font-weight: bolder;
      opacity: 0;
     transform: translateX(30px);
@@ -877,13 +896,13 @@ nav .nav-links button a{
 .fourth-2{
     width: 30%;
     height: 100%;
-    /* border: 2px solid black; */
+    /* border: 2px solid black;  */
     background: whitesmoke;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
+    padding: 25px;
 }
 .fourth-2 .text-box{
     width: 100%;
@@ -903,23 +922,25 @@ nav .nav-links button a{
     transform: translateY(0);
 }
 .fourth-2 .text-box a{
-    font-size: 17px;
+    font-size: 12px;
     text-decoration: none;
     color: #030027;
+    /* border: 2px solid red; */
 }
 .fourth-2 .text-box .access-t{
     width: 100%;
-    height: 20%;
+    height: 30%;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    font-size: 12px;
 }
 .fourth-2 .text-box .access-t .cats{
     width: 40%;
-    height: 100%;
+    height: 90%;
     /* border: 2px solid red; */
     /* margin-top: 10px; */
     display: flex;
@@ -927,6 +948,7 @@ nav .nav-links button a{
     align-items: center;
     background: #030027;
     color: #C9FBFF;
+    font-size: 10px;
 
 }
 .fourth-2 .text-box:hover{
@@ -965,14 +987,14 @@ nav .nav-links button a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
 }
 .subscribe-contacts .subscribe input{
     width: 70%;
-    height: 40%;
+    height: 60%;
     border: none;
-    font-size: 15px;
+    font-size: 12px;
     padding: 10px;
 }
 .subscribe-contacts .subscribe input::placeholder{
@@ -981,14 +1003,15 @@ nav .nav-links button a{
 }
 .subscribe-contacts .subscribe button{
     width: 20%;
-    height: 40%;
+    height: 60%;
     /* border: 2px solid red; */
-    border: none;
     outline: none;
+    border: none;
     background: #85BDBF;
     color: #040F0F;
     font-weight: bolder;
     cursor: pointer;
+    margin-left: 10px;
 }
 .subscribe-contacts .subscribe button:hover{
     color: #040F0F;
@@ -999,16 +1022,15 @@ nav .nav-links button a{
     /* border: 2px solid pink; */
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     background: #fff;
-
-    padding: 40px;
+    padding: 20px;
 }
 .subscribe-contacts .contacts h3{
-    font-size: 30px;
+    font-size: 20px;
     color: #040F0F;
     margin-bottom: 10px;
 }
 .subscribe-contacts .contacts .socials{
-    width: 80%;
+    width: 75%;
     height: 70%;
     /* border: 2px solid red; */
     display: flex;
@@ -1017,8 +1039,8 @@ nav .nav-links button a{
     align-items: center;
 }
 .subscribe-contacts .contacts .socials i{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     /* border: 2px solid red; */
     border-radius: 50%;
     display: flex;
@@ -1052,21 +1074,20 @@ footer .footer-aside{
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
-    padding: 25px;
-    font-size: 35px;
-}
-.footer-main-text{
-    
+    padding: 15px;
+    /* font-size: 35px; */
 }
 footer .footer-aside a{
     text-decoration: none;
+    font-size: 30px;
     color: #85BDBF;
+    margin-left: 15px;
 }
 footer .footer-aside .lines{
     width: 100%;
     height: 1%;
     background: #c9fbff37;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 footer .footer-main{
     width: 100%;
@@ -1080,13 +1101,13 @@ footer .footer-main{
 footer .footer-main .footer-main-text{
     width: 40%;
     height: 90%;
-    /* border: 2px solid red;/ */
+    /* border: 2px solid red; */
     padding: 30px;
 }
 footer .footer-main .footer-main-text .social{
     width: 80%;
     height: 30%;
-    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1095,6 +1116,7 @@ footer .footer-main .footer-main-text .social{
 footer .footer-main .footer-main-text p{
     margin-bottom: 20px;
     color: #85BDBF;
+    font-size: 12px;
 }
 footer .footer-main .footer-main-text .lines{
     width: 100%;
@@ -1123,9 +1145,10 @@ footer .footer-main .footer-main-link ul li{
 footer .footer-main .footer-main-link ul li a{
     display: block;
     padding: 0px 10px;
+    font-size: 12px;
     text-decoration: none;
     color: #85BDBF;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     transition: color 0.5s ease;
 }
 footer .footer-main .footer-main-link ul li a:hover{
@@ -1138,7 +1161,7 @@ footer .footer-main .footer-main-link ul li i{
 footer .footer-main .footer-main-cats{
     width: 25%;
     height: 90%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .about-slider{
     width: 100%;
@@ -1204,21 +1227,21 @@ footer .footer-main .footer-main-cats{
 }
 .about-todate .about-todate-main .content{
     width: 90%;
-    height: 45%;
+    height: 50%;
     /* border: 2px solid red; */
     padding: 10px;
 }
 .about-todate .about-todate-main .content h2{
-    font-size: 45px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 .about-todate .about-todate-main .content p{
-    font-size: 17px;
+    font-size: 13px;
     font-style: italic;
     margin-bottom: 20px;
 }
 .about-todate .about-todate-main .content .content-buts{
-    width: 80%;
+    width: 90%;
     height: 25%;
     /* border: 2px solid red; */
     display: flex;
@@ -1227,7 +1250,7 @@ footer .footer-main .footer-main-cats{
     align-items: center;
 }
 .about-todate .about-todate-main .content .content-buts button{
-    padding: 15px 30px;
+    padding: 10px 15px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1283,14 +1306,14 @@ footer .footer-main .footer-main-cats{
     align-items: center;
 }
 .about-accordion-container .buts-container button{
-    padding: 20px 55px;
+    padding: 13px 40px;
     /* margin-left: 50px; */
     border: none;
     outline: none;
     cursor: pointer;
     /* border: 1px solid grey; */
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     transition: background 1s ease;
     /* background: #fff; */
 }
@@ -1352,10 +1375,12 @@ footer .footer-main .footer-main-cats{
     align-items: left;
     padding: 20px;
     background: #fff;
+    font-size: 13px;
 }
 .about-accordion-container .contents-container .mission-container .mission-container-main h3{
     color: #030027;
-    font-size: 25px;
+    font-size: 20px;
+    /* border: 2px solid red; */
 }
 .about-accordion-container .contents-container .mission-container .mission-container-aside{
     width: 45%;
@@ -1391,9 +1416,10 @@ footer .footer-main .footer-main-cats{
     transform: translateX(0);
 }
 .about-accordion-container .contents-container .mission-container #we-are-aside .central-img{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     /* border: 2px solid red; */
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     position: relative;
     z-index: 1;
@@ -1407,8 +1433,8 @@ footer .footer-main .footer-main-cats{
 }
 .about-accordion-container .contents-container .mission-container #we-are-aside .central-img .central-img-up{
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     /* border: 2px solid red; */
     border-radius: 50%;
     left: 75%;
@@ -1417,7 +1443,7 @@ footer .footer-main .footer-main-cats{
     cursor: pointer;
 }
 .about-accordion-container .contents-container .mission-container #we-are-aside .central-img .central-img-up img{
-     width: 100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
@@ -1431,8 +1457,8 @@ footer .footer-main .footer-main-cats{
 }
 .about-accordion-container .contents-container .mission-container #we-are-aside .central-img .central-img-down{
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     /* border: 2px solid red; */
     border-radius: 50%;
     left: 70%;
@@ -1571,7 +1597,7 @@ footer .footer-main .footer-main-cats{
     align-items: center;
 }
 .about-video .about-video-blured .vid-center{
-    width: 30%;
+    width: 35%;
     height: 70%;
     /* border: 2px solid red; */
     display: flex;
@@ -1586,7 +1612,7 @@ footer .footer-main .footer-main-cats{
 
 }
 .about-video .about-video-blured .vid-center h3{
-    font-size: 50px;
+    font-size: 45px;
     color: #fff;
     margin-bottom: 20px;
 }
@@ -1602,8 +1628,8 @@ footer .footer-main .footer-main-cats{
     align-items: center;
 }
 .about-video .about-video-blured .vid-center .play .play-buts{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     /* border: 2px solid red; */
     border-radius: 50%;
     background: #fff;
@@ -1688,11 +1714,11 @@ footer .footer-main .footer-main-cats{
     padding: 10px 30px;
 }
 .about-help .about-help-boxes .boxes-1{
-    width: 28%;
+    width: 27%;
     height: 90%;
     /* border: 2px solid red; */
     cursor: pointer;
-    box-shadow: 0px 0px 4px #85BDBF;
+    box-shadow: 0px 0px 3px #85BDBF;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1721,29 +1747,30 @@ footer .footer-main .footer-main-cats{
     color: #85BDBF;
 }
 .about-help .about-help-boxes .boxes-1 i{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 30px;
     color: #85BDBF;
 }
 .about-help .about-help-boxes .boxes-1 h3{
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
+    /* border: 2px solid red; */
 }
 .about-help .about-help-boxes .boxes-1 p{
     text-align: center;
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 14px;
 }
 .about-help .about-help-boxes .boxes-1 .phone a{
     text-decoration: none;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 20px;
 }
 .about-help .about-help-boxes .boxes-1 .phone a:hover{
     text-decoration: underline;
 }
 .about-help .about-help-boxes .boxes-1 a{
-    font-size: 20px;
+    font-size: 15px;
     color: #030027;
 }
 .about-help .about-help-boxes .boxes-1 a:hover{
@@ -1781,7 +1808,7 @@ footer .footer-main .footer-main-cats{
 }
 .contacts-form main form{
     width: 100%;
-    height: 70%;
+    height: 75%;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
@@ -1791,8 +1818,8 @@ footer .footer-main .footer-main-cats{
 }
 .contacts-form main form .form-input{
     width: 100%;
-    height: 23%;
-    padding: 15px;
+    height: 22%;
+    padding: 10px;
     /* border: 2px solid red; */
 }
 .contacts-form main form .form-input input{
@@ -1806,25 +1833,28 @@ footer .footer-main .footer-main-cats{
     width: 100%;
     height: 60%;
     /* border: 2px solid blue; */
-    padding: 15px;
+    padding: 10px;
 }
 .contacts-form main form .form-message textarea{
-    width: 97%;
+    width: 97.5%;
     height: 100%;
     padding: 10px 10px;
-    font-size: 18px;
+    font-size: 15px;
+    border: 1px solid rgb(219, 219, 219);
+
+
 }
 .contacts-form main form .sub-buts{
     width: 100%;
-    height: 15%;
+    height: 12%;
     /* border: 2px solid red; */
     display: flex;
     justify-content: left;
     align-items: center;
-    padding-left: 18px;
+    padding-left: 10px;
 }
 .contacts-form main form .sub-buts button{
-    padding: 18px 70px;
+    padding: 15px 60px;
     border: none;
     outline: none;
     background: #030027;
@@ -1836,7 +1866,7 @@ footer .footer-main .footer-main-cats{
 }
 .contacts-form main form .sub-buts button:hover{
     color: #030027;
-    box-shadow: 0px 2px 2px #030027;
+    box-shadow: 0px 0px 2px #030027;
     background: transparent;
 }
 
@@ -1866,7 +1896,7 @@ footer .footer-main .footer-main-cats{
     box-shadow: 0px 2px 2px rgb(237, 237, 237);
 }
 .contacts-form aside .address h3, .contacts-form aside .contact-info h3{
-    font-size: 25px;
+    font-size: 20px;
     color: #030027;
     margin-bottom: 15px;
 }
@@ -1877,15 +1907,15 @@ footer .footer-main .footer-main-cats{
     margin-bottom: 25px;
 }
 .contacts-form aside .address p{
-    font-size: 17px;
+    font-size: 12px;
     margin-bottom: 20px;
     color: rgb(155, 155, 155);
 
 }
 .contacts-form aside .contact-info p{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 5px;
-    font-size: 17px;
+    font-size: 12px;
     color: rgb(155, 155, 155);
 }
 .contacts-form aside .contact-info p a{
@@ -1946,6 +1976,12 @@ footer .footer-main .footer-main-cats{
     color: #030027;
 
 }
+.login-form p{
+    /* border: 2px solid red; */
+    font-size: 12px;
+    padding: 0px !important;
+    margin: 0px 25px  !important;
+}
 .login-form form{
     width: 100%;
     height: 75%;
@@ -1971,7 +2007,7 @@ footer .footer-main .footer-main-cats{
 }
 .login-form form button{
     width: 100%;
-    height: 18%;
+    height: 20%;
     /* border: 2px solid red; */
     border: none;
     outline: none;
@@ -1980,7 +2016,7 @@ footer .footer-main .footer-main-cats{
     border-radius: 5px;
     font-weight: bolder;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 15px;
     transition: background 1s ease, color 1s ease, box-shadow 1s ease;
 
 }
@@ -1997,17 +2033,17 @@ footer .footer-main .footer-main-cats{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
 }
 .check-box-password a{
     text-decoration: none;
+    font-size: 12px;
     color: rgb(155, 155, 155);
 }
 .check-box-password .cheks{
-    width: 35%;
+    width: 40%;
     height: 100%;
-    /* border: 2px solid red; */
     display: flex;
+    font-size: 12px;
     flex-direction: row;
     justify-content: left;
     align-items: center;
@@ -2042,7 +2078,6 @@ footer .footer-main .footer-main-cats{
 .login-form form .form-input i{
     width: 10%;
     height: 100%;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2052,8 +2087,64 @@ footer .footer-main .footer-main-cats{
 }
 @media (max-width: 767px) {
     .nav-links{
-        display: none !important;
-        border: 2px solid red;
+        display: none;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 60px;
+        width: 100% !important;
+        height: 60% !important;
+        flex-direction: column !important;
+        background: #85BDBF;
+        z-index: 1000;
+        padding: 10px;
+        margin-left: -2% !important;
+    }
+    .nav-links .search{
+        width: 100% !important;
+        height: 20% !important;
+        /* border: 2px solid red; */
+    }
+    .nav-links .search input{
+        height: 75% !important;
+    }
+    .nav-links button{
+        width: 100% !important;
+        height: 15% !important;
+        background: #030027 !important;
+    }
+    .nav-links button:hover{
+        background: #C9FBFF !important;
+    }
+    .nav-links button:hover a{
+        color: #030027 !important;
+    }
+    .nav-links button a{
+        color: #85BDBF !important;
+        font-weight: bolder !important;
+    }
+    nav .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav .nav-links ul li a{
+        display: block;
+        width: 100%;
+        padding: 15px;
+        color: #030027;
+        transition: color 0.5s ease, background 0.5s ease, border-radius 0.5s ease;
+        margin-bottom: 10px !important;
+
+    }
+    nav .nav-links ul li .mb-res{
+        border: 2px solid #03002707 !important;
+    }
+    nav .nav-links ul li a:hover{
+        background: #0C1B33;
+        color: #C9FBFF;
+        border-radius: 5px;
     }
     nav .logo{
         width: 35%;
@@ -2064,39 +2155,64 @@ footer .footer-main .footer-main-cats{
         justify-content: space-evenly !important;
     }
     nav .logo a{
-        margin-left: 20px;
+        margin-right: 25px;
     }
     .hamburger{
         display: flex;
         width: 15%;
         /* border: 2px solid red; */
-        margin-right: 2px;
+        margin-right: 10px;
     }
     .hamburger i{
-        font-size: 35px;
+        font-size: 25px;
         color: #85BDBF;
     }
     .cam-slider{
         height: 200%;
+        /* border: 2px solid red; */
+        /* padding-right: 0px !important; */
+        padding-left: 20px !important;
+
     }
     .cam-slider .slider{
-        height: 45%;
+        height: 50% !important;
+        /* border: 2px solid red; */
+        /* padding: 10px !important; */
+        width: 100% !important;
     }
     .cam-slider .slider .slides .overlay{
         /* border: 2px solid red; */
-        height: 40% !important;
+        height: 45% !important;
         top: 30% !important;
+        padding: 10px !important;
     }
     .cam-slider .slider .slides .slides-blured .overlay p{
         font-size: 10px;
+        margin-bottom: 20px !important;
     }
     .cam-slider .slider .slides .slides-blured .overlay h2{
-        font-size: 30px;
+        font-size: 20px;
+        margin-bottom: 20px !important;
+        
     }
+    .cam-slider .slider .arrow-buts{
+        /* border: 2px solid red !important; */
+        font-size: 15px !important;
+    }
+    #prev{
+         left: -5px !important;   
+    }
+    #next{
+        right: 0px !important;
+    }
+
     .cam-slider .slider .dots-container{
         /* border: 2px solid red; */
         width: 30%;
-        left: 38%;
+        left: 33%;
+    }
+    .cam-slider .slider .dots-container .dots{
+        padding: 5px 5px;
     }
     .cam-slider .under-slider{
         /* border: 2px solid red; */
@@ -2108,6 +2224,15 @@ footer .footer-main .footer-main-cats{
         width: 100%;
         height: 45%;
     }
+    .cam-slider .under-slider .under-slider1 .slides-blured .contents{
+        /* border: 2px solid red; */
+        width: 90%;
+        top: 20%;
+    } 
+    .cam-slider .under-slider .under-slider1 .slides-blured .contents h2{
+        font-size: 18px;
+
+    }
     .under-content{
         height: 45%;
         width: 90%;
@@ -2115,11 +2240,11 @@ footer .footer-main .footer-main-cats{
         flex-direction: column;
         padding: 0 !important;
         background: none ;
-        margin-left: 40px;
+        margin-left: 17px;
     }
     .under-content .under-content-box{
         /* border: 2px solid red; */
-        height: 30%;
+        height: 28%;
         width: 100%;
         background: #030027;
         justify-content: left !important;
@@ -2129,19 +2254,20 @@ footer .footer-main .footer-main-cats{
         margin-left: 15px;
     }
     .news{
-        height: 500%;
+        height: 600%;
         /* border: 2px solid red; */
         flex-direction: column;
+        padding: 20px !important;
     }
     .news .news-main{
         width: 100%;
         height: 60% !important;
-        /* border: 2px solid red; */
+        /* border: 2px solid red ; */
     }
     .news .news-aside{
         width: 100%;
         height: 40% !important;
-        /* border: 2px solid red; */
+        /* border: 2px solid red  !important; */
     }
     .news .news-main .box-contents{
         /* border: 2px solid red; */
@@ -2158,6 +2284,9 @@ footer .footer-main .footer-main-cats{
     .news .news-main .box-contents .contents-2 .main-contents-2 {
         /* border: 2px solid red; */
     }
+    .news .news-main .box-contents .contents-2 .main-contents-2 p{
+        font-size: 10px;
+    }
     .news .news-main .box-contents .contents-2 .main-contents-2 main h4{
         display: none;
     }
@@ -2166,7 +2295,7 @@ footer .footer-main .footer-main-cats{
         width: 100%;
     }
     .news .news-main .heads{
-        height: 2%;
+        height: 3%;
         /* border: 2px solid red; */
     }
     .fourth{
@@ -2181,7 +2310,7 @@ footer .footer-main .footer-main-cats{
     }
     .fourth .fourth-1 .fourth-1-main{
         /* border: 2px solid blue; */
-        height: 70%;
+        height: 65%;
 
     }
     .fourth .fourth-1 .fourth-1-main .main1 .overlay{
@@ -2190,42 +2319,58 @@ footer .footer-main .footer-main-cats{
         width: 90%;
     }
     .fourth .fourth-1 .fourth-1-main .main1 .overlay h3{
-        font-size: 35px;
+        font-size: 25px;
     }
     .fourth .fourth-1 .fourth-1-main .main1 .overlay .overlay-btn{
         /* border: 2px solid red; */
-        width: 80%;
+        width: 90%;
+        font-size: 10px !important;
     }
     .fourth .fourth-1 .fourth-1-main .main2 h2{
-        font-size: 25px;
+        font-size: 15px;
     }
     .fourth .fourth-1 .fourth-1-main .main2 p{
-        font-size: 12px;
+        font-size: 10px;
+        /* border: 2px solid red; */
     }
     .fourth .fourth-1 .fourth-1-main .main2 button{
-        padding: 20px 65px;
+        padding: 15px 45px;
         /* border: 2px solid red; */
     }
     .fourth .fourth-1 .fourth-1-aside{
         /* border: 2px solid black; */
-        height: 30%;
+        height: 35%;
+    }
+    .fourth .fourth-1 .fourth-1-aside .aside-divs .aside-divs-heading{
+        /* border: 2px solid blue; */
+        height: 10%;
     }
     .fourth .fourth-1 .fourth-1-aside .aside-divs-buts{
         /* border: 2px solid red; */
         flex-direction: column;
+        height: 90% !important;
+        justify-content: center;
+
     }
     .fourth .fourth-1 .fourth-1-aside .aside-divs-buts .cat-buts{
         /* border: 2px solid red; */
         width: 100%;
+        height: 30%;
         flex-direction: row;
-        justify-content: space-between;
     }
     .fourth .fourth-1 .fourth-1-aside .aside-divs-buts .cat-buts .but-div{
         width: 45%;
-        height: 70%;
+        height: 80%;
     }
     .fourth .fourth-1 .fourth-1-aside .aside-divs-buts .cat-buts .but-div i{
         font-size: 20px;
+    }
+    .fourth .fourth-2  .text-box{
+        /* border: 2px solid red; */
+        padding: 15px !important;
+    }
+    .fourth .fourth-2  .text-box a{
+        margin-bottom: 0 !important;
     }
     .fourth .fourth-2  .text-box .access-t{
         /* border: 2px solid red; */
@@ -2233,67 +2378,457 @@ footer .footer-main .footer-main-cats{
     }
     .fourth .fourth-2  .text-box .access-t .cats{
         height: 100%;
-
-    }
-    .fourth-2 .slides-blured{
-        display: none !important;
     }
     .subscribe-contacts{
         /* border: 2px solid red; */
         flex-direction: column;
-        height: 35%;
+        height: 50%;
         padding: 0 !important;
         justify-content: space-evenly;
     }
     .subscribe-contacts .subscribe{
         /* border: 2px solid red; */
         padding: 10px !important;
-
         width: 90%;
-        height: 45%;
+        height: 35%;
     }
     .subscribe-contacts .subscribe input{
-        height: 55%;
+        height: 45%;
         width: 80%;
     }
     .subscribe-contacts .subscribe button{
-        height: 55%;
+        height: 45%;
+        font-size: 12px;
 
     }
     .subscribe-contacts .contacts{
         /* border: 2px solid red; */
         width: 90%;
-        height: 45%;
+        height: 40%;
 
     }
-};
-@media (min-width:768px) and (max-width:1000px) {
-    nav{
-        border: 2px solid red;
+    .subscribe-contacts .contacts .socials{
+        /* border: 2px solid red; */
+        width: 60%;
     }
-    .nav-links{
-        display: none !important;
-        border: 2px solid red;
+    #contact-slider, #login-slider, #register-slider{
+        /* border: 2px solid red; */
+        height: 25%;
     }
-    nav .logo{
-        width: 35%;
-        height: 100%;
+    .contacts-form{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        height: 140%;
+    }
+    .contacts-form main{
+        width: 100%;
+        height: 45%;
+        /* border: 2px solid red; */
+    }
+    .contacts-form main .main-heading{
+        /* border: 2px solid red; */
+        height: 10%;
+    }
+    .contacts-form main form{
+        /* border: 2px solid red; */
+        height: 85%;
+    }
+    .contacts-form main form .form-input{
+        height: 45%;
         /* border: 2px solid red; */
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly !important;
+        flex-direction: column !important;
+        justify-content: space-evenly;
     }
-    nav .logo a{
-        margin-left: 20px;
+    .contacts-form main form .form-input input{
+        width: 100%;
+        height: 30%;
+    }
+    .contacts-form main form .form-message{
+        height: 30%;
+        /* border: 2px solid yellow !important; */
+    }
+    .contacts-form aside{
+        width: 100%;
+        height: 55%;
+        /* border: 2px solid blue; */
+        margin-top: 20px;
+        flex-direction: column;
+        padding: 0px 0px !important;
+        justify-content: space-around;
+    }
+    .contacts-form aside .address{
+        width: 100%;
+        height: 45%;
+        /* border: 2px solid red; */
+    }
+    .contacts-form aside .contact-info{
+        width: 100%;
+        height: 45%;
+        /* border: 2px solid red; */
+    }
+    .login-container{
+        /* border: 2px solid red; */
+        height: 50%;
+    }
+    .login-container .login-form{
+        /* border: 2px solid red; */
+        width: 90%;
+        height: 100%;
+    }
+    .login-container .login-form p{
+        /* border: 2px solid red; */
+        margin-left: 4% !important;
+    }
+    #register-container{
+        /* border: 2px solid red; */
+        height: 70%;
+    }
+    #register-container #register-form{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    #about-slider{
+        height: 30% !important;
+    }
+    .about-accordion-container{
+        /* border: 2px solid red; */
+        padding: 20px;
+        height: 120%;
+    }
+    .about-accordion-container .buts-container{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 8%;
+    }
+    .about-accordion-container .buts-container button{
+        padding: 20px 35px;
+        border-radius:5px;
+    }
+    .about-accordion-container .contents-container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+    }
+    .about-accordion-container .contents-container .mission-container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+    }
+    .about-accordion-container .contents-container .mission-container .mission-container-main{
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid red; */
+    }
+    .about-accordion-container .contents-container .mission-container .mission-container-aside{
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid red; */
+    }
+    .about-video{
+        height: 55%;
+        /* border: 2px solid red; */
+    }
+    .about-video .about-video-blured{
+        /* border: 2px solid red; */
+    }
+    .about-video .about-video-blured .vid-center{
+        /* border: 2px solid red; */
+        width: 80%;
+    }
+    .about-help{
+        /* border: 2px solid red; */
+        height: 170%;
+    }
+    .about-help .about-help-heading{
+        /* border: 2px solid red; */
+        height: 8%;
+    }
+    .about-help .about-help-boxes{
+        /* border: 2px solid red; */
+        height: 92%;
+        flex-direction: column;
+
+    }
+    .about-help .about-help-boxes .boxes-1{
+        width: 90%;
+        height: 30%;
+    }
+    .about-todate{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        height: 50%;
+    }
+    .about-todate .about-todate-main {
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 100%;
+    }
+    .about-todate .about-todate-main .content{
+        /* border: 2px solid red; */
+        height: 80%;
+        width: 90%;
+    }
+    .about-todate .about-todate-main .content .content-buts{
+        /* border: 2px solid red; */
+        width: 90%;
+    }
+    .about-todate .about-todate-aside {
+        display: none;
+    }
+    footer{
+        height: 55%;
+        /* border: 2px solid red; */
+    }
+    footer .footer-main-link{
+        display: none !important;
+    }
+    footer .footer-aside{
+        /* border: 2px solid red; */
+        height: 25%;
+    }
+    footer .footer-aside h3{
+        font-size: 30px;
+        margin-top: 5px;
+        /* border: 2px solid red; */
+    }
+
+    footer .footer-main .footer-main-text{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .nav-links{
+        display: none;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 60px;
+        width: 100% !important;
+        height: 60% !important;
+        flex-direction: column !important;
+        background: #85BDBF;
+        z-index: 1000;
+        padding: 10px;
+        margin-left: -2% !important;
+    }
+    .nav-links .search{
+        width: 100% !important;
+        height: 20% !important;
+        /* border: 2px solid red; */
+    }
+    .nav-links .search input{
+        height: 75% !important;
+    }
+    .nav-links button{
+        width: 100% !important;
+        height: 15% !important;
+        background: #030027 !important;
+    }
+    .nav-links button:hover{
+        background: #C9FBFF !important;
+    }
+    .nav-links button:hover a{
+        color: #030027 !important;
+    }
+    .nav-links button a{
+        color: #85BDBF !important;
+        font-weight: bolder !important;
+    }
+    nav .nav-links ul{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav .nav-links ul li a{
+        display: block;
+        width: 100%;
+        padding: 15px;
+        color: #030027;
+        transition: color 0.5s ease, background 0.5s ease, border-radius 0.5s ease;
+        margin-bottom: 10px !important;
+
+    }
+    nav .nav-links ul li .mb-res{
+        border: 2px solid #03002707 !important;
+    }
+    nav .nav-links ul li a:hover{
+        background: #0C1B33;
+        color: #C9FBFF;
+        border-radius: 5px;
+    }
+    nav .logo{
+        /* border: 2px solid red; */
+        margin-left: 23px;
     }
     .hamburger{
         display: flex;
         width: 15%;
         /* border: 2px solid red; */
-        margin-right: 2px;
+        margin-right: -30px;
     }
     .hamburger i{
-        font-size: 35px;
+        font-size: 25px;
         color: #85BDBF;
     }
-};
+    
+    .contacts-form{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        height: 100%;
+    }
+    .contacts-form main{
+        width: 100%;
+        height: 65%;
+        /* border: 2px solid red; */
+    }
+    .contacts-form main .main-heading{
+        /* border: 2px solid red; */
+        height: 10%;
+    }
+    .contacts-form main form{
+        /* border: 2px solid red; */
+        height: 85%;
+    }
+    .contacts-form main form .form-input{
+        height: 45%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-evenly;
+    }
+    .contacts-form main form .form-input input{
+        width: 100%;
+        height: 30%;
+    }
+    .contacts-form main form .form-message{
+        height: 30%;
+        /* border: 2px solid yellow !important; */
+    }
+    .contacts-form aside{
+        width: 100%;
+        height: 35%;
+        /* border: 2px solid blue; */
+        margin-top: 20px;
+        flex-direction: row;
+        padding: 0px 0px !important;
+        justify-content: space-between;
+    }
+    .contacts-form aside .address{
+        width: 48%;
+        height: 100%;
+        /* border: 2px solid red; */
+    }
+    .contacts-form aside .contact-info{
+        width: 48%;
+        height: 100%;
+        /* border: 2px solid red; */
+    }
+    .login-container{
+        /* border: 2px solid red; */
+        height: 50%;
+    }
+    .login-container .login-form{
+        /* border: 2px solid red; */
+        width: 90%;
+        height: 100%;
+    }
+    .login-container .login-form p{
+        /* border: 2px solid red; */
+        margin-left: 4% !important;
+    }
+    #register-container{
+        /* border: 2px solid red; */
+        height: 70%;
+    }
+    #register-container #register-form{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .about-accordion-container{
+        /* border: 2px solid red; */
+        padding: 20px;
+        height: 120%;
+    }
+    .about-accordion-container .buts-container{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 8%;
+    }
+    .about-accordion-container .buts-container button{
+        padding: 20px 35px;
+        border-radius:5px;
+    }
+    .about-accordion-container .contents-container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+    }
+    .about-accordion-container .contents-container .mission-container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+    }
+    .about-accordion-container .contents-container .mission-container .mission-container-main{
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid red; */
+    }
+    .about-accordion-container .contents-container .mission-container .mission-container-aside{
+        width: 100%;
+        height: 50%;
+        /* border: 2px solid red; */
+    }
+    .about-video{
+        height: 55%;
+        /* border: 2px solid red; */
+    }
+    .about-video .about-video-blured{
+        /* border: 2px solid red; */
+    }
+    .about-video .about-video-blured .vid-center{
+        /* border: 2px solid red; */
+        width: 80%;
+    }
+    .about-help{
+        /* border: 2px solid red; */
+        height: 170%;
+    }
+    .about-help .about-help-heading{
+        /* border: 2px solid red; */
+        height: 8%;
+    }
+    .about-help .about-help-boxes{
+        /* border: 2px solid red; */
+        height: 92%;
+        flex-direction: column;
+
+    }
+    .about-help .about-help-boxes .boxes-1{
+        width: 75%;
+        height: 30%;
+    }
+    .about-todate{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        height: 50%;
+    }
+    .about-todate .about-todate-main {
+        /* border: 2px solid blue; */
+        width: 100%;
+        height: 100%;
+    }
+    .about-todate .about-todate-main .content{
+        /* border: 2px solid red; */
+        height: 80%;
+        width: 90%;
+    }
+    .about-todate .about-todate-main .content .content-buts{
+        /* border: 2px solid red; */
+        width: 65%;
+    }
+    .about-todate .about-todate-aside {
+        display: none;
+    }
+
+
+}

@@ -1,3 +1,16 @@
+const hamburger = document.getElementById('hamburger');
+const navContainer = document.querySelector('.nav-links');
+hamburger.addEventListener('click', ()=>{
+    if(navContainer.style.display === '' || navContainer.style.display === 'none'){
+        navContainer.style.display = 'flex';
+        hamburger.classList.remove('fa-bars');
+        hamburger.classList.add('fa-times');
+    }else{
+        navContainer.style.display = 'none'
+        hamburger.classList.add('fa-bars');
+        hamburger.classList.remove('fa-times');
+    }
+})
 const slides = document.querySelectorAll('.slides');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
